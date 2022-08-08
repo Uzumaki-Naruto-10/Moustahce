@@ -1,0 +1,27 @@
+h3 {
+    font-size: 35px;
+}
+
+.btn-success:hover {
+    background-color: indigo;
+}
+
+.btn-danger:hover {
+    background-color: blue;
+}
+
+canvas {
+    animation-name: gojo;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes gojo {
+    from {
+        box-shadow: 1px 1px 40px red;
+    }
+
+    to {
+        box-shadow: 1px 1px 48px blue;
+    }
+}
